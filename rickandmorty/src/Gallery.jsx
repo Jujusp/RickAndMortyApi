@@ -24,7 +24,7 @@ function Gallery() {
                     <Card
                         key={index}
                         gender={character.gender}
-                        name={character.gender}
+                        name={character.name}
                         status={character.status}
                         src={character.image}
                     />
